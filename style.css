@@ -1,0 +1,44 @@
+h1{
+  color:slategrey;
+  padding: 15px;
+}
+.menu{
+  margin: 10px
+}
+.header{
+  background-color:rgb(255, 208, 0) ;
+  display:flex;
+  justify-content: space-evenly;
+}
+.grid{
+  display:flex;
+  justify-content: space-between;
+}
+.footer{
+  display:flex;
+  justify-content: center;
+}
+h2,p{
+  text-align: center;
+}
+*{
+  border:solid lightgray;
+}
+body{
+  background-color: lightyellow;
+}
+.game{
+  position: relative;
+}
+.game p{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  opacity: 0;
+}
+.game:hover p{
+  opacity: 1;
+}
+.game:hover img{
+  opacity: 0.3;
+}
